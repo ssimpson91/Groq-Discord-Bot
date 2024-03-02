@@ -65,8 +65,7 @@ Contributions to the project are welcome. Please follow the standard Git workflo
 - Submit a pull request.
 
 #### License
-Specify the license under which your project is released, ensuring it's clear for contributors and users.
+MIT license
 
 ---
 
-This documentation provides a clear overview of the project's structure and usage, ready for inclusion in your Git repository. Ensure to add any additional details specific to your project's setup or requirements.
