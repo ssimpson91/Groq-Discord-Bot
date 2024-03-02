@@ -1,0 +1,33 @@
+Requirement already satisfied: python-lsp-black in /home/omega/anaconda3/lib/python3.11/site-packages (1.2.1)
+Requirement already satisfied: requires in /home/omega/anaconda3/lib/python3.11/site-packages (0.10.5)
+Requirement already satisfied: black in /home/omega/anaconda3/lib/python3.11/site-packages (0.0)
+Requirement already satisfied: python-lsp-server>=1.4.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from python-lsp-black) (1.7.2)
+Collecting black
+  Obtaining dependency information for black from https://files.pythonhosted.org/packages/1a/53/0b82f36f0a8beee5388f6bcc3a1591e094c87a275c64532ac6ce69fb491f/black-24.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading black-24.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (74 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.6/74.6 kB 3.1 MB/s eta 0:00:00
+Requirement already satisfied: toml in /home/omega/anaconda3/lib/python3.11/site-packages (from python-lsp-black) (0.10.2)
+Requirement already satisfied: funkify<0.5.0,>=0.4.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from requires) (0.4.5)
+Requirement already satisfied: xtyping>=0.5.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from requires) (0.8.2)
+Requirement already satisfied: click>=8.0.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from black) (8.1.7)
+Requirement already satisfied: mypy-extensions>=0.4.3 in /home/omega/anaconda3/lib/python3.11/site-packages (from black) (1.0.0)
+Requirement already satisfied: packaging>=22.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from black) (23.2)
+Requirement already satisfied: pathspec>=0.9.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from black) (0.10.3)
+Requirement already satisfied: platformdirs>=2 in /home/omega/anaconda3/lib/python3.11/site-packages (from black) (3.10.0)
+Requirement already satisfied: jedi<0.19.0,>=0.17.2 in /home/omega/anaconda3/lib/python3.11/site-packages (from python-lsp-server>=1.4.0->python-lsp-black) (0.18.1)
+Requirement already satisfied: python-lsp-jsonrpc>=1.0.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from python-lsp-server>=1.4.0->python-lsp-black) (1.0.0)
+Requirement already satisfied: pluggy>=1.0.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from python-lsp-server>=1.4.0->python-lsp-black) (1.0.0)
+Requirement already satisfied: docstring-to-markdown in /home/omega/anaconda3/lib/python3.11/site-packages (from python-lsp-server>=1.4.0->python-lsp-black) (0.11)
+Requirement already satisfied: ujson>=3.0.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from python-lsp-server>=1.4.0->python-lsp-black) (5.4.0)
+Requirement already satisfied: setuptools>=39.0.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from python-lsp-server>=1.4.0->python-lsp-black) (68.0.0)
+Requirement already satisfied: annotated-types>=0.5.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from xtyping>=0.5.0->requires) (0.6.0)
+Requirement already satisfied: typing-extensions>=4.4.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from xtyping>=0.5.0->requires) (4.9.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from jedi<0.19.0,>=0.17.2->python-lsp-server>=1.4.0->python-lsp-black) (0.8.3)
+Downloading black-24.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 22.5 MB/s eta 0:00:00
+Installing collected packages: black
+  Attempting uninstall: black
+    Found existing installation: black 0.0
+    Uninstalling black-0.0:
+      Successfully uninstalled black-0.0
+Successfully installed black-24.2.0

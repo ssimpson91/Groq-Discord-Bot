@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "axios": "^1.6.7",
+    "discord": "^0.8.2",
+    "discord.js": "^14.14.1",
+    "groq-sdk": "^0.3.0",
+    "winston": "^3.11.0"
+  },
+  "name": "nodejs_bots",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

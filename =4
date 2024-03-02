@@ -1,0 +1,69 @@
+Requirement already satisfied: jupyter-server in /home/omega/anaconda3/lib/python3.11/site-packages (1.23.4)
+Collecting requires
+  Obtaining dependency information for requires from https://files.pythonhosted.org/packages/bb/21/20a984c49a3ed98c920c9f4892ef5b525677281b929c8e0826b8dc3ea168/requires-0.10.5-py3-none-any.whl.metadata
+  Downloading requires-0.10.5-py3-none-any.whl.metadata (4.8 kB)
+Requirement already satisfied: anyio in /home/omega/anaconda3/lib/python3.11/site-packages (4.2.0)
+Collecting anyio
+  Obtaining dependency information for anyio from https://files.pythonhosted.org/packages/19/24/44299477fe7dcc9cb58d0a57d5a7588d6af2ff403fdd2d47a246c91a3246/anyio-3.7.1-py3-none-any.whl.metadata
+  Downloading anyio-3.7.1-py3-none-any.whl.metadata (4.7 kB)
+Requirement already satisfied: argon2-cffi in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (21.3.0)
+Requirement already satisfied: jinja2 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (3.1.2)
+Requirement already satisfied: jupyter-client>=6.1.12 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (7.4.9)
+Requirement already satisfied: jupyter-core>=4.7.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (5.3.0)
+Requirement already satisfied: nbconvert>=6.4.4 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (6.5.4)
+Requirement already satisfied: nbformat>=5.2.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (5.9.2)
+Requirement already satisfied: packaging in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (23.2)
+Requirement already satisfied: prometheus-client in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (0.14.1)
+Requirement already satisfied: pyzmq>=17 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (23.2.0)
+Requirement already satisfied: Send2Trash in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (1.8.0)
+Requirement already satisfied: terminado>=0.8.3 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (0.17.1)
+Requirement already satisfied: tornado>=6.1.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (6.3.2)
+Requirement already satisfied: traitlets>=5.1 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (5.7.1)
+Requirement already satisfied: websocket-client in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-server) (0.58.0)
+Collecting funkify<0.5.0,>=0.4.0 (from requires)
+  Obtaining dependency information for funkify<0.5.0,>=0.4.0 from https://files.pythonhosted.org/packages/4b/ab/ba6f9fadfff877d9c5cf270049ec06d229bd9f4d294530796c7ee3ec5bc3/funkify-0.4.5-py3-none-any.whl.metadata
+  Downloading funkify-0.4.5-py3-none-any.whl.metadata (2.3 kB)
+Collecting xtyping>=0.5.0 (from requires)
+  Obtaining dependency information for xtyping>=0.5.0 from https://files.pythonhosted.org/packages/68/aa/666ad7e5608101f999040902d8c8ac67f1eee02de46985c2f284dcc00811/xtyping-0.8.2-py3-none-any.whl.metadata
+  Downloading xtyping-0.8.2-py3-none-any.whl.metadata (27 kB)
+Requirement already satisfied: idna>=2.8 in /home/omega/anaconda3/lib/python3.11/site-packages (from anyio) (3.6)
+Requirement already satisfied: sniffio>=1.1 in /home/omega/anaconda3/lib/python3.11/site-packages (from anyio) (1.3.0)
+Requirement already satisfied: entrypoints in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-client>=6.1.12->jupyter-server) (0.4)
+Requirement already satisfied: nest-asyncio>=1.5.4 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-client>=6.1.12->jupyter-server) (1.6.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-client>=6.1.12->jupyter-server) (2.8.2)
+Requirement already satisfied: platformdirs>=2.5 in /home/omega/anaconda3/lib/python3.11/site-packages (from jupyter-core>=4.7.0->jupyter-server) (3.10.0)
+Requirement already satisfied: lxml in /home/omega/anaconda3/lib/python3.11/site-packages (from nbconvert>=6.4.4->jupyter-server) (5.1.0)
+Requirement already satisfied: beautifulsoup4 in /home/omega/anaconda3/lib/python3.11/site-packages (from nbconvert>=6.4.4->jupyter-server) (4.12.3)
+Requirement already satisfied: bleach in /home/omega/anaconda3/lib/python3.11/site-packages (from nbconvert>=6.4.4->jupyter-server) (4.1.0)
+Requirement already satisfied: defusedxml in /home/omega/anaconda3/lib/python3.11/site-packages (from nbconvert>=6.4.4->jupyter-server) (0.7.1)
+Requirement already satisfied: jupyterlab-pygments in /home/omega/anaconda3/lib/python3.11/site-packages (from nbconvert>=6.4.4->jupyter-server) (0.1.2)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from nbconvert>=6.4.4->jupyter-server) (2.1.1)
+Requirement already satisfied: mistune<2,>=0.8.1 in /home/omega/anaconda3/lib/python3.11/site-packages (from nbconvert>=6.4.4->jupyter-server) (0.8.4)
+Requirement already satisfied: nbclient>=0.5.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from nbconvert>=6.4.4->jupyter-server) (0.5.13)
+Requirement already satisfied: pandocfilters>=1.4.1 in /home/omega/anaconda3/lib/python3.11/site-packages (from nbconvert>=6.4.4->jupyter-server) (1.5.0)
+Requirement already satisfied: pygments>=2.4.1 in /home/omega/anaconda3/lib/python3.11/site-packages (from nbconvert>=6.4.4->jupyter-server) (2.15.1)
+Requirement already satisfied: tinycss2 in /home/omega/anaconda3/lib/python3.11/site-packages (from nbconvert>=6.4.4->jupyter-server) (1.2.1)
+Requirement already satisfied: fastjsonschema in /home/omega/anaconda3/lib/python3.11/site-packages (from nbformat>=5.2.0->jupyter-server) (2.16.2)
+Requirement already satisfied: jsonschema>=2.6 in /home/omega/anaconda3/lib/python3.11/site-packages (from nbformat>=5.2.0->jupyter-server) (4.17.3)
+Requirement already satisfied: ptyprocess in /home/omega/anaconda3/lib/python3.11/site-packages (from terminado>=0.8.3->jupyter-server) (0.7.0)
+Requirement already satisfied: annotated-types>=0.5.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from xtyping>=0.5.0->requires) (0.6.0)
+Requirement already satisfied: typing-extensions>=4.4.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from xtyping>=0.5.0->requires) (4.9.0)
+Requirement already satisfied: argon2-cffi-bindings in /home/omega/anaconda3/lib/python3.11/site-packages (from argon2-cffi->jupyter-server) (21.2.0)
+Requirement already satisfied: six in /home/omega/anaconda3/lib/python3.11/site-packages (from websocket-client->jupyter-server) (1.16.0)
+Requirement already satisfied: attrs>=17.4.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from jsonschema>=2.6->nbformat>=5.2.0->jupyter-server) (22.1.0)
+Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in /home/omega/anaconda3/lib/python3.11/site-packages (from jsonschema>=2.6->nbformat>=5.2.0->jupyter-server) (0.18.0)
+Requirement already satisfied: cffi>=1.0.1 in /home/omega/anaconda3/lib/python3.11/site-packages (from argon2-cffi-bindings->argon2-cffi->jupyter-server) (1.15.1)
+Requirement already satisfied: soupsieve>1.2 in /home/omega/anaconda3/lib/python3.11/site-packages (from beautifulsoup4->nbconvert>=6.4.4->jupyter-server) (2.4)
+Requirement already satisfied: webencodings in /home/omega/anaconda3/lib/python3.11/site-packages (from bleach->nbconvert>=6.4.4->jupyter-server) (0.5.1)
+Requirement already satisfied: pycparser in /home/omega/anaconda3/lib/python3.11/site-packages (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi->jupyter-server) (2.21)
+Downloading requires-0.10.5-py3-none-any.whl (8.8 kB)
+Downloading anyio-3.7.1-py3-none-any.whl (80 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.9/80.9 kB 4.8 MB/s eta 0:00:00
+Downloading funkify-0.4.5-py3-none-any.whl (4.4 kB)
+Downloading xtyping-0.8.2-py3-none-any.whl (14 kB)
+Installing collected packages: xtyping, funkify, anyio, requires
+  Attempting uninstall: anyio
+    Found existing installation: anyio 4.2.0
+    Uninstalling anyio-4.2.0:
+      Successfully uninstalled anyio-4.2.0
+Successfully installed anyio-3.7.1 funkify-0.4.5 requires-0.10.5 xtyping-0.8.2
