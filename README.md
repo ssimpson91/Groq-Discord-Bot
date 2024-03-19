@@ -65,7 +65,6 @@ Contributions to the project are welcome. Please follow the standard Git workflo
 - Submit a pull request.
 
 #### License
-MIT license
-
+Apache 2.0
 ---
 
